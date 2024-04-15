@@ -1,33 +1,53 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
-import 'bootstrap/dist/css/bootstrap.min.css'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import LembreteNovo from './LembreteNovo'
+import React from 'react'; 
 
-class App extends React.Component{
+import ReactDOM from 'react-dom'; 
 
-    // const App = () => {
-    //     return <div>Hello, lembretes</div>
-    //    }
+import 'bootstrap/dist/css/bootstrap.min.css'; 
 
-render(){
-    return (
-    
-      <div className='container '>
-        <div className="row justify-content-center ">
-          <div className="col-sm-12 col-md-8">{
-            <LembreteNovo />
-          }
-            </div>
-        </div>
-    </div>
+//import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; 
 
-    )
-  }
+import LembreteNovo from './LembreteNovo'; 
 
-}
+import LembreteEntrada from './LembreteEntrada'; 
 
-ReactDOM.render(
- <App />,
- document.querySelector('#root')
-)
+ 
+
+class App extends React.Component { 
+
+  render() { 
+
+    return ( 
+
+      <div className='container'> 
+
+        <br></br> 
+
+        <div className="row justify-content-center"> 
+
+            <div className="col-sm-12 col-md-8"> 
+
+                <LembreteNovo /> 
+
+            </div> 
+
+        </div> 
+
+      </div> 
+
+    ); 
+
+  } 
+
+} 
+
+ 
+
+ReactDOM.render( 
+
+  <App />, 
+
+  document.querySelector('#root') 
+
+); 
+
+ 
