@@ -1,8 +1,7 @@
 import React, { Component } from 'react'; 
 
-import LembreteEntrada from './LembreteEntrada'; // Importar o componente 
+import LembreteEntrada from './LembreteEntrada'; 
 
- 
 
 export default class LembreteNovo extends Component { 
 
@@ -15,6 +14,7 @@ export default class LembreteNovo extends Component {
             texto: "Hello, Lembrete", 
 
         }; 
+
     } 
 
  
